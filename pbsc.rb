@@ -20,7 +20,7 @@ require 'yaml'
 
 
 $fields = {
-	:id        => { :name =>          'Job ID', :width => 6 },
+	:id        => { :name =>          'Job ID', :width => 7 },
 	:name      => { :name =>        'Job name', :width => {:min => 8, :weight => 1} },
 	:procs     => { :name =>           'Procs', :width => 5 },
 	:walltime  => { :name =>        'Walltime', :width => 12 },
